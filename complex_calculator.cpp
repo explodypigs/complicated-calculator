@@ -74,5 +74,27 @@ string* find_sub_operations(string oper, bool par_found=false){
     return 0;
 }
 string solve_eq(string oper, int pos){
+    bool check=true;
+    int startpos;
+    int endpos;    
+    while(check){
+        for(int i=2;i<oper.length()-pos;i++){
 
+        }
+        for(int i=2;i<oper.length()-pos;i++){
+            
+        }
+    }
+    if (oper.at(pos)=='+'){
+
+    }
+    else if (oper.at(pos)=='-'){
+        
+    }
+    else if (oper.at(pos)=='/'){
+        
+    }
+    else if (oper.at(pos)=='*'){
+        
+    }
 }
